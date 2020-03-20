@@ -1,0 +1,577 @@
+<!doctype html>
+<html lang="fr" class="h-100">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="font-awesome.css">
+    <title>UPC/DELIBE</title>
+  </head>
+  <body class="d-flex flex-column h-100">
+    <section>
+      <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <div class="container">
+          <a class="container navbar-brand text-light" href="#">
+            <i class="fa fa-tachometer"></i> Tableau de bord
+          </a>
+        </div>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="container">  
+          <div class="collapse navbar-collapse " id="navbarNav">
+            <ul class="navbar-nav ml-auto text-right ">
+              <li class="nav-item active ">
+                <a class="nav-link text-light" href="#">
+                  <i class="fa fa-file"></i> Fichiers
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">
+                  <i class="fa fa-cog"></i> Configurration
+                </a>
+              </li>
+              <li class="nav-item">
+                <div class="chip">
+                  <img  src="img/users.png" alt="Profil Prof">
+                  Prof Mumbere
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#" data-toggle="modal" data-target="#exampleModalCenter1">
+                  <i class="fa fa-power-off fa-1x"></i> Deconnexion
+                </a>
+              </li>
+            </ul>
+          </div>
+          </div>
+        </nav>    
+    </section>
+
+    <!-- Boutton de service  -->
+
+    <div class="container mt-4">
+      <div class="row text-center">
+       <div class="col-12 col-md-12 col-lg-12 butt">
+         <span>
+          <a href="" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1">
+            <i class="fa fa-print fa-1x"></i> Imprimer
+          </a>
+        </span>
+         <span>
+          <a href="" class="btn btn-warning">
+            <i class="fa fa-bar-chart fa-1x"></i> Statistique
+          </a>
+         </span>
+         <span>
+          <a href="" class="btn btn-dark" data-toggle="modal" data-target="#exampleModalCenter">
+            <i class="fa fa-envelope-open"></i>
+               Boite de réception
+          </a>
+         </span>
+         <span>
+          <a href="" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal2">
+            <i class="fa fa-file-pdf-o"></i> Convertir en PDF
+          </a>
+         </span>
+         <span>
+          <a href="" class="btn btn-success">
+            <i class="fa fa-bookmark-o"></i> Aide & Details
+          </a>
+         </span>
+       </div>
+      </div>
+      <h1 class="mt-4"></h1>
+      <!-- Card des liste de cours -->
+      <h3 class="text-center list mt-4">Liste de Promotion et cours</h3>
+      <div class="row mt-4 center">
+      <div class="col-sm-12 col-md-6 col-lg-4">
+        <div class="card text-dark bg-light mb-3 mt-4" style="max-width: 18rem;">
+          <div class="card-header text-center">G1/FASi</div>
+          <div class="card-body">
+            <h5 class="card-title">Programmation web</h5>
+            <h5 class="card-title">Langage C</h5>
+            <p class="card-text">Effectifs : 250</p>
+            <p class="card-text">Effectifs Feminin : 150</p>
+            <p class="card-text">Effectifs Masculin : 100</p>
+            <a href="#" class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample">Voir listes des étudiants</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-4">
+        <div class="card text-dark bg-light mb-3 mt-4" style="max-width: 18rem;">
+          <div class="card-header text-center">G3/FASI</div>
+          <div class="card-body">
+            <h5 class="card-title">Programmation web</h5>
+            <h5 class="card-title">Langage C</h5>
+            <p class="card-text">Effectifs : 250</p>
+            <p class="card-text">Effectifs Feminin : 150</p>
+            <p class="card-text">Effectifs Masculin : 100</p>
+            <a href="#" class="btn btn-danger" type="button" data-toggle="collapse" data-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">Voir listes des étudiants</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-4">
+        <div class="card text-dark bg-light mb-3 mt-4" style="max-width: 18rem;">
+          <div class="card-header text-center">G2/FASI</div>
+          <div class="card-body">
+            <h5 class="card-title">Programmation web</h5>
+            <h5 class="card-title">Langage C</h5>
+            <p class="card-text">Effectifs : 250</p>
+            <p class="card-text">Effectifs Feminin : 150</p>
+            <p class="card-text">Effectifs Masculin : 100</p>
+            <a href="#" class="btn btn-success" type="button" data-toggle="collapse" data-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample">Voir la listes des étudiants</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Collapsi de liste des étudiants -->
+    <div class="row mt-4">
+      
+      <div class="col-sm-12 col-s-12 col-lg-12 mt-4">
+        <div class="collapse" id="collapseExample1">
+          <div class="card card-body">
+            <table class="table table-bordered">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Nom</th>
+                  <th scope="col">Postnom</th>
+                  <th scope="col">Prenom</th>
+                  <th scope="col">Cote</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Muanji</td>
+                  <td>Ngoyi</td>
+                  <td>Divine</td>
+                  <td><input type="number"></td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Kitoga</td>
+                  <td>Mizumbi</td>
+                  <td>Merveille</td>
+                  <td><input type="number"></td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Mambwe</td>
+                  <td>Bayekwambo</td>
+                  <td>Grace</td>
+                  <td><input type="number"></td>
+                </tr>
+                <tr>
+                  <th scope="row">4</th>
+                  <td>Khieki</td>
+                  <td>Khieki</td>
+                  <td>Salomon</td>
+                  <td><input type="number"></td>
+                </tr>
+                <tr>
+                  <th scope="row">5</th>
+                  <td>Otshudi</td>
+                  <td>Edodo</td>
+                  <td>Sage</td>
+                  <td><input type="number"></td>
+                </tr>
+              </tbody>
+            </table>
+            <span>
+              <a href="" class="btn btn-warning" data-toggle="modal" data-target="#exampleModalCenter24">
+                <i class="fa fa-floppy-o fa-1x"></i> Sauvergarder
+              </a> 
+              <a href="" class="btn btn-success"  data-toggle="modal" data-target="#exampleModalCenter97">
+                <i class="fa fa-paper-plane fa-1x"></i> Sauvergarder & Envoyer
+              </a>
+            </span>
+          </div>
+        </div>
+        <div class="collapse" id="collapseExample2">
+          <div class="card card-body">
+            <table class="table table-bordered">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Nom</th>
+                  <th scope="col">Postnom</th>
+                  <th scope="col">Prenom</th>
+                  <th scope="col">Cote</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Muanji</td>
+                  <td>Ngoyi</td>
+                  <td>Divine</td>
+                  <td><input type="number"></td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Kitoga</td>
+                  <td>Mizumbi</td>
+                  <td>Merveille</td>
+                  <td><input type="number"></td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Mambwe</td>
+                  <td>Bayekwambo</td>
+                  <td>Grace</td>
+                  <td><input type="number"></td>
+                </tr>
+                <tr>
+                  <th scope="row">4</th>
+                  <td>Khieki</td>
+                  <td>Khieki</td>
+                  <td>Salomon</td>
+                  <td><input type="number"></td>
+                </tr>
+                <tr>
+                  <th scope="row">5</th>
+                  <td>Otshudi</td>
+                  <td>Edodo</td>
+                  <td>Sage</td>
+                  <td><input type="number"></td>
+                </tr>
+              </tbody>
+            </table>
+            <span>
+              <a href="" class="btn btn-warning" data-toggle="modal" data-target="#exampleModalCenter24">
+                <i class="fa fa-floppy-o fa-1x"></i> Sauvergarder
+              </a> 
+              <a href="" class="btn btn-success" data-toggle="modal" data-target="#exampleModalCenter97">
+                <i class="fa fa-paper-plane fa-1x"></i> Sauvergarder & Envoyer
+              </a>
+            </span>
+            
+          </div>
+        </div>
+        <div class="collapse collapsing" id="collapseExample3">
+          <div class="card card-body">
+            <table class="table table-bordered">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Nom</th>
+                  <th scope="col">Postnom</th>
+                  <th scope="col">Prenom</th>
+                  <th scope="col">Cote</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Muanji</td>
+                  <td>Ngoyi</td>
+                  <td>Divine</td>
+                  <td><input type="number"></td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Kitoga</td>
+                  <td>Mizumbi</td>
+                  <td>Merveille</td>
+                  <td><input type="number"></td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Mambwe</td>
+                  <td>Bayekwambo</td>
+                  <td>Grace</td>
+                  <td><input type="number"></td>
+                </tr>
+                <tr>
+                  <th scope="row">4</th>
+                  <td>Khieki</td>
+                  <td>Khieki</td>
+                  <td>Salomon</td>
+                  <td><input type="number"></td>
+                </tr>
+                <tr>
+                  <th scope="row">5</th>
+                  <td>Otshudi</td>
+                  <td>Edodo</td>
+                  <td>Sage</td>
+                  <td><input type="number"></td>
+                </tr>
+              </tbody>
+            </table>
+            <span>
+              <a href="" class="btn btn-warning" data-toggle="modal" data-target="#exampleModalCenter24">
+                <i class="fa fa-floppy-o fa-1x"></i> Sauvergarder
+              </a> 
+              <a href="" class="btn btn-success" data-toggle="modal" data-target="#exampleModalCenter97">
+                <i class="fa fa-paper-plane fa-1x"></i> Sauvergarder & Envoyer
+              </a>
+            </span>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Liste des étudiants G3 FASI</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            
+            <table class="table table-bordered">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Nom</th>
+                  <th scope="col">Postnom</th>
+                  <th scope="col">Prenom</th>
+                  <th scope="col">Cote</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Muanji</td>
+                  <td>Ngoyi</td>
+                  <td>Divine</td>
+                  <td>01</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Kitoga</td>
+                  <td>Mizumbi</td>
+                  <td>Merveille</td>
+                  <td>20</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Mambwe</td>
+                  <td>Bayekwambo</td>
+                  <td>Grace</td>
+                  <td>15</td>
+                </tr>
+                <tr>
+                  <th scope="row">4</th>
+                  <td>Khieki</td>
+                  <td>Khieki</td>
+                  <td>Salomon</td>
+                  <td>0.5</td>
+                </tr>
+                <tr>
+                  <th scope="row">5</th>
+                  <td>Otshudi</td>
+                  <td>Edodo</td>
+                  <td>Sage</td>
+                  <td>02</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">ANNULER</button>
+            <button type="button" class="btn btn-primary">IMPRIMER</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal convertir en PDF -->
+        <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Conversion en PDF</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body text-center">
+            <i class="fa fa-file-word-o fa-5x text-center mb-3"></i> <i class="fa fa-arrow-right fa-2x text-center mb-3"></i> <i class="fa fa-file-pdf-o fa-5x"></i>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">ANNULER</button>
+            <button type="button" class="btn btn-primary">CONVERTIR LA LISTE EN PDF</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal deconnexion -->
+
+    <div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalCenterTitle">Déconnexion</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              Etes-vous sûr de vous déconnectez
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-success" data-dismiss="modal">NON</button>
+              <button type="button" class="btn btn-danger">OUI</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal Email-->
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+                <div class="modal-body">
+                  <h5>Prof Musangu</h5>
+                  <p>Le 08/04/2019</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium nostrum assumenda asperiores veniam tempore fugit. Mollitia...</p>
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal11" data-whatever="profmusangumarcel@upcfasi.">Répondre</button>
+                  <hr>
+                  <h5>Secrétariat de la faculté</h5>
+                  <p>Le 07/08/2019 </p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium nostrum assumenda asperiores veniam tempore fugit. Mollitia...</p>
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal11" data-whatever="@mdo">Répondre</button>
+                </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">FERMER</button>
+              </div>
+            </div>
+          </div>
+        </div>    
+      <div class="modal fade" id="exampleModal11" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Envoyzr un Mail</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="form-group">
+                  <label for="recipient-name" class="col-form-label">Destinateur:</label>
+                  <input type="text" class="form-control" placeholder="profmusangumarcel@upcfasi" id="recipient-name">
+                </div>
+                <div class="form-group">
+                  <label for="message-text" class="col-form-label">Message:</label>
+                  <textarea class="form-control" id="message-text"></textarea>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Annuler</button>
+              <button type="button" class="btn btn-primary">Envoyer E-Mail</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal sauvegarde de la liste -->
+      <div class="modal fade" id="exampleModalCenter24" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+             <h6><i class="fa fa-check fa-1x"></i> La liste a été sauvegardée avec succès !</h6>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-warning" data-dismiss="modal">FERMER</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal liste envoyer et sauvergarder -->
+      <div class="modal fade bd-example-modal-lg" tabindex="-1" id="exampleModalCenter97" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalCenterTitle">Cours : Sécurité Informatique <br>
+              Promotion : G3/FASI <br>
+              <p class="h6"> Ponderation : 4 </p>
+              <p class="h6"> Heure : 60 Heure </p>
+              <p class="h6"> Titulaire du cours : Kokenango Moitigala Philippe </p>
+               </h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <table class="table table-bordered">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Nom</th>
+                  <th scope="col">Postnom</th>
+                  <th scope="col">Prenom</th>
+                  <th scope="col">Cote</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Muanji</td>
+                  <td>Ngoyi</td>
+                  <td>Divine</td>
+                  <td>01</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Kitoga</td>
+                  <td>Mizumbi</td>
+                  <td>Merveille</td>
+                  <td>20</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Mambwe</td>
+                  <td>Bayekwambo</td>
+                  <td>Grace</td>
+                  <td>15</td>
+                </tr>
+                <tr>
+                  <th scope="row">4</th>
+                  <td>Khieki</td>
+                  <td>Khieki</td>
+                  <td>Salomon</td>
+                  <td>0.5</td>
+                </tr>
+                <tr>
+                  <th scope="row">5</th>
+                  <td>Otshudi</td>
+                  <td>Edodo</td>
+                  <td>Sage</td>
+                  <td>02</td>
+                </tr>
+              </tbody>
+            </table>
+            </div>
+            <div class="modal-footer">
+              <p class="text-danger text-center">Vérifier la liste avant l'envoie...</p><br>
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Annuler</button>
+              <button type="button" class="btn btn-warning">
+                <i class="fa fa-paper-plane"></i> Envoyer
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
